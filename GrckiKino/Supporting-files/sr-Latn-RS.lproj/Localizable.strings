@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  GrckiKino
+
+  Created by Ivana on 11.4.24..
+  
+*/
+
+"greek_kino" = "Greek kino";
+"drawing_time" = "Vreme izvlačenja";
+"draw_cycle" = "Kolo";
+"remaining_payment" = "Preostalo za uplatu";
+"random_selection" = "Slučajni odabir";
+"numbers" = "Brojeva";
+"choosen_numbers" = "Izabrani brojevi";
+"number_of_choosen_numbers" = "Broj izabranih kuglica";
+"odd" = "Kvota";
+"draws_results" = "Rezultati izvlačenja";
+"live_draw" = "Izvlačenje uživo";
+"quick_keno" = "Brzzi kino";
+"numbers_talon" = "Talon";
+"more_games" = "Dodatne igre";

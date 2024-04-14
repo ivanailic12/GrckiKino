@@ -2,7 +2,7 @@
 //  GrckiKinoApp.swift
 //  GrckiKino
 //
-//  Created by Ivana Crystal Pigeon on 8.4.24..
+//  Created by Ivana on 8.4.24..
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct GrckiKinoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GamesListView()
         }
     }
 }

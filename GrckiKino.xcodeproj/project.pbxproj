@@ -8,17 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		B703F8592BC4818800FE2979 /* GrckiKinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B703F8582BC4818800FE2979 /* GrckiKinoApp.swift */; };
-		B703F85B2BC4818800FE2979 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B703F85A2BC4818800FE2979 /* ContentView.swift */; };
+		B703F85B2BC4818800FE2979 /* GamesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B703F85A2BC4818800FE2979 /* GamesListView.swift */; };
 		B703F85D2BC4818900FE2979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B703F85C2BC4818900FE2979 /* Assets.xcassets */; };
 		B703F8602BC4818900FE2979 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B703F85F2BC4818900FE2979 /* Preview Assets.xcassets */; };
+		B703F86A2BC489B300FE2979 /* DrawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B703F8692BC489B300FE2979 /* DrawData.swift */; };
+		B703F8722BC48BF700FE2979 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B703F8712BC48BF700FE2979 /* Endpoint.swift */; };
+		B703F8752BC48FE400FE2979 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B703F8742BC48FE400FE2979 /* Service.swift */; };
+		B703F8782BC498DC00FE2979 /* GameRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B703F8772BC498DC00FE2979 /* GameRow.swift */; };
+		B72638072BC69C3A00AE176C /* GameNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72638062BC69C3A00AE176C /* GameNavigationView.swift */; };
+		B726380B2BC6C26900AE176C /* TalonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B726380A2BC6C26900AE176C /* TalonView.swift */; };
+		B726380D2BC6E54B00AE176C /* LiveDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B726380C2BC6E54B00AE176C /* LiveDrawView.swift */; };
+		B726380F2BC744B100AE176C /* GameResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B726380E2BC744B100AE176C /* GameResponse.swift */; };
+		B72638112BC747D700AE176C /* GameResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72638102BC747D700AE176C /* GameResultsView.swift */; };
+		B72638132BC74A7500AE176C /* SingleResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72638122BC74A7500AE176C /* SingleResultView.swift */; };
+		B72638152BC7B95800AE176C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72638142BC7B95800AE176C /* Helper.swift */; };
+		B72638172BC7BB3700AE176C /* CircledNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72638162BC7BB3700AE176C /* CircledNumberView.swift */; };
+		B72638192BC7CE7200AE176C /* CircledNumberGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72638182BC7CE7200AE176C /* CircledNumberGroupView.swift */; };
+		B726381C2BC88F4900AE176C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B726381A2BC88F4900AE176C /* Localizable.strings */; };
+		B72638202BC8923600AE176C /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B726381F2BC8923600AE176C /* Localizable.swift */; };
+		B7F3B12E2BCB3D470005FC2F /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F3B12D2BCB3D470005FC2F /* CountdownTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B703F8552BC4818800FE2979 /* GrckiKino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrckiKino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B703F8582BC4818800FE2979 /* GrckiKinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrckiKinoApp.swift; sourceTree = "<group>"; };
-		B703F85A2BC4818800FE2979 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B703F85A2BC4818800FE2979 /* GamesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesListView.swift; sourceTree = "<group>"; };
 		B703F85C2BC4818900FE2979 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B703F85F2BC4818900FE2979 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B703F8692BC489B300FE2979 /* DrawData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawData.swift; sourceTree = "<group>"; };
+		B703F8712BC48BF700FE2979 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		B703F8732BC48F1700FE2979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B703F8742BC48FE400FE2979 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		B703F8772BC498DC00FE2979 /* GameRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRow.swift; sourceTree = "<group>"; };
+		B72638062BC69C3A00AE176C /* GameNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameNavigationView.swift; sourceTree = "<group>"; };
+		B726380A2BC6C26900AE176C /* TalonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalonView.swift; sourceTree = "<group>"; };
+		B726380C2BC6E54B00AE176C /* LiveDrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDrawView.swift; sourceTree = "<group>"; };
+		B726380E2BC744B100AE176C /* GameResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResponse.swift; sourceTree = "<group>"; };
+		B72638102BC747D700AE176C /* GameResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultsView.swift; sourceTree = "<group>"; };
+		B72638122BC74A7500AE176C /* SingleResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleResultView.swift; sourceTree = "<group>"; };
+		B72638142BC7B95800AE176C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		B72638162BC7BB3700AE176C /* CircledNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircledNumberView.swift; sourceTree = "<group>"; };
+		B72638182BC7CE7200AE176C /* CircledNumberGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircledNumberGroupView.swift; sourceTree = "<group>"; };
+		B726381B2BC88F4900AE176C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B726381E2BC88FAA00AE176C /* sr-Latn-RS */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sr-Latn-RS"; path = "sr-Latn-RS.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B726381F2BC8923600AE176C /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		B7F3B12D2BCB3D470005FC2F /* CountdownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +86,17 @@
 			isa = PBXGroup;
 			children = (
 				B703F8582BC4818800FE2979 /* GrckiKinoApp.swift */,
-				B703F85A2BC4818800FE2979 /* ContentView.swift */,
+				B703F8762BC498AE00FE2979 /* View */,
+				B703F8732BC48F1700FE2979 /* Info.plist */,
+				B703F86B2BC48AB100FE2979 /* Help */,
+				B703F8682BC489A600FE2979 /* Model */,
+				B703F85A2BC4818800FE2979 /* GamesListView.swift */,
+				B72638062BC69C3A00AE176C /* GameNavigationView.swift */,
+				B726380A2BC6C26900AE176C /* TalonView.swift */,
+				B726380C2BC6E54B00AE176C /* LiveDrawView.swift */,
+				B72638102BC747D700AE176C /* GameResultsView.swift */,
 				B703F85C2BC4818900FE2979 /* Assets.xcassets */,
+				B726381D2BC88F6E00AE176C /* Supporting-files */,
 				B703F85E2BC4818900FE2979 /* Preview Content */,
 			);
 			path = GrckiKino;
@@ -65,6 +108,54 @@
 				B703F85F2BC4818900FE2979 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B703F8682BC489A600FE2979 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B703F8692BC489B300FE2979 /* DrawData.swift */,
+				B726380E2BC744B100AE176C /* GameResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B703F86B2BC48AB100FE2979 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				B703F86C2BC48AC300FE2979 /* Service */,
+				B72638142BC7B95800AE176C /* Helper.swift */,
+				B7F3B12D2BCB3D470005FC2F /* CountdownTimer.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		B703F86C2BC48AC300FE2979 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B703F8712BC48BF700FE2979 /* Endpoint.swift */,
+				B703F8742BC48FE400FE2979 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B703F8762BC498AE00FE2979 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B703F8772BC498DC00FE2979 /* GameRow.swift */,
+				B72638162BC7BB3700AE176C /* CircledNumberView.swift */,
+				B72638122BC74A7500AE176C /* SingleResultView.swift */,
+				B72638182BC7CE7200AE176C /* CircledNumberGroupView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B726381D2BC88F6E00AE176C /* Supporting-files */ = {
+			isa = PBXGroup;
+			children = (
+				B726381F2BC8923600AE176C /* Localizable.swift */,
+				B726381A2BC88F4900AE176C /* Localizable.strings */,
+			);
+			path = "Supporting-files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +200,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"sr-Latn-RS",
 			);
 			mainGroup = B703F84C2BC4818800FE2979;
 			productRefGroup = B703F8562BC4818800FE2979 /* Products */;
@@ -126,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B703F8602BC4818900FE2979 /* Preview Assets.xcassets in Resources */,
+				B726381C2BC88F4900AE176C /* Localizable.strings in Resources */,
 				B703F85D2BC4818900FE2979 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,12 +230,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B703F85B2BC4818800FE2979 /* ContentView.swift in Sources */,
+				B7F3B12E2BCB3D470005FC2F /* CountdownTimer.swift in Sources */,
+				B72638172BC7BB3700AE176C /* CircledNumberView.swift in Sources */,
+				B703F8722BC48BF700FE2979 /* Endpoint.swift in Sources */,
+				B726380F2BC744B100AE176C /* GameResponse.swift in Sources */,
+				B726380D2BC6E54B00AE176C /* LiveDrawView.swift in Sources */,
+				B72638072BC69C3A00AE176C /* GameNavigationView.swift in Sources */,
+				B726380B2BC6C26900AE176C /* TalonView.swift in Sources */,
+				B703F8782BC498DC00FE2979 /* GameRow.swift in Sources */,
+				B72638152BC7B95800AE176C /* Helper.swift in Sources */,
+				B72638112BC747D700AE176C /* GameResultsView.swift in Sources */,
+				B703F85B2BC4818800FE2979 /* GamesListView.swift in Sources */,
 				B703F8592BC4818800FE2979 /* GrckiKinoApp.swift in Sources */,
+				B72638192BC7CE7200AE176C /* CircledNumberGroupView.swift in Sources */,
+				B703F8752BC48FE400FE2979 /* Service.swift in Sources */,
+				B72638132BC74A7500AE176C /* SingleResultView.swift in Sources */,
+				B72638202BC8923600AE176C /* Localizable.swift in Sources */,
+				B703F86A2BC489B300FE2979 /* DrawData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B726381A2BC88F4900AE176C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B726381B2BC88F4900AE176C /* en */,
+				B726381E2BC88FAA00AE176C /* sr-Latn-RS */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B703F8612BC4818900FE2979 /* Debug */ = {
@@ -275,6 +395,7 @@
 				DEVELOPMENT_TEAM = CXSN93LTP6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GrckiKino/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +425,7 @@
 				DEVELOPMENT_TEAM = CXSN93LTP6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GrckiKino/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
