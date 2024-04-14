@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  GrckiKino
+
+  Created by Ivana on 11.4.24..
+  
+*/
+
+"greek_kino" = "Greek kino";
+"drawing_time" = "Draw time";
+"draw_cycle" = "Draw cycle";
+"remaining_payment" = "Bet remaining time";
+"random_selection" = "Random selection";
+"numbers" = "Numbers";
+"choosen_numbers" = "Choosen numbers";
+"number_of_choosen_numbers" = "Number of choosen numbers";
+"odd" = "Odd";
+"draws_results" = "Draw's results";
+"live_draw" = "Live draw";
+"quick_keno" = "Quick keno";
+"numbers_talon" = "Numbers";
+"more_games" = "More games";
